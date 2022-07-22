@@ -1,0 +1,42 @@
+PODS:
+  - facebook_app_events (0.0.1):
+    - FBAudienceNetwork
+    - FBSDKCoreKit
+    - Flutter
+  - FBAEMKit (14.1.0):
+    - FBSDKCoreKit_Basics (= 14.1.0)
+  - FBAudienceNetwork (6.11.2)
+  - FBSDKCoreKit (14.1.0):
+    - FBAEMKit (= 14.1.0)
+    - FBSDKCoreKit_Basics (= 14.1.0)
+  - FBSDKCoreKit_Basics (14.1.0)
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - facebook_app_events (from `.symlinks/plugins/facebook_app_events/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - FBAEMKit
+    - FBAudienceNetwork
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+
+EXTERNAL SOURCES:
+  facebook_app_events:
+    :path: ".symlinks/plugins/facebook_app_events/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  facebook_app_events: e58266dfac97d4a1df772e09e80ea831bfa4cb8c
+  FBAEMKit: a899515e45476027f73aef377b5cffadcd56ca3a
+  FBAudienceNetwork: 4600bc7fa9bd925b1e397b7c9bbef02923062bbc
+  FBSDKCoreKit: 24f8bc8d3b5b2a8c5c656a1329492a12e8efa792
+  FBSDKCoreKit_Basics: 6e578c9bdc7aa1365dbbbde633c9ebb536bcaa98
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.2
